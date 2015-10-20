@@ -76,7 +76,7 @@ EOF
 
 service squid3 restart
 
-echo "Acquire::http::Proxy \"http://172.16.172.110:3128\";" | sudo tee /etc/apt/apt.conf
+echo "Acquire::http::Proxy \"http://188.166.252.158:3128\";" | sudo tee /etc/apt/apt.conf
 
 sudo apt-get install python-software-properties -y
 sudo add-apt-repository ppa:openstack-ubuntu-testing/grizzly-trunk-testing
